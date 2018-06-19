@@ -1,8 +1,8 @@
 FROM jetty:jre8-alpine
-LABEL maintainer="juhani@vaadin.com"
+LABEL maintainer="https://github.com/jtomass/alpine-jre-bash"
 
 USER root
-RUN apk add --update --no-cache \
+RUN apk add --no-cache \
     bash \ 
     gawk \
     sed \
